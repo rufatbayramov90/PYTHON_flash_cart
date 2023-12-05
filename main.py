@@ -37,7 +37,6 @@ def is_known():
 window = Tk()
 window.title("Flashy")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
-
 flip_timer = window.after(3000, func=flip_card)
 
 
@@ -59,10 +58,4 @@ known_button = Button(image=check_image, highlightthickness=0, command=is_known)
 known_button.grid(row=1, column=1)
 
 next_card()
-
-
-
-
-
-
 window.mainloop()
