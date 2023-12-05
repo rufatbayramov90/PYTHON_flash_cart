@@ -28,6 +28,7 @@ window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
 flip_timer = window.after(3000, func=flip_card)
 
+
 canvas=Canvas(width=800, height=526)
 card_front_img=PhotoImage(file="images/card_front.png")
 card_back_img = PhotoImage(file="images/card_back.png")
